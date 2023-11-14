@@ -1,3 +1,7 @@
+## More
+
+See [流量监控Surge面板](https://github.com/getsomecat/GetSomeCats/blob/Surge/%E5%8F%A6%E4%B8%80%E4%B8%AAVPS%E6%B5%81%E9%87%8F%E7%9B%91%E6%8E%A7Surge%E9%9D%A2%E6%9D%BF.md)
+
 ## Start
 ```bash
 sudo bash -c "$(curl -sL https://raw.githubusercontent.com/durianice/serviceDataWatch/main/serviceDataWatch.sh)"
@@ -18,7 +22,3 @@ Serverinfo = script-name= Serverinfo,update-interval=3600
 [Script]
 Serverinfo = type=generic,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/serverinfo.js, argument = url=http://127.0.0.1:7122&name=Server Info&icon=party.popper
 ```
-
-## More
-
-See [流量监控Surge面板](https://github.com/getsomecat/GetSomeCats/blob/Surge/%E5%8F%A6%E4%B8%80%E4%B8%AAVPS%E6%B5%81%E9%87%8F%E7%9B%91%E6%8E%A7Surge%E9%9D%A2%E6%9D%BF.md)
