@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Generate by ChatGPT
+
 # 检查是否以 root 用户运行
 if [ "$(id -u)" != "0" ]; then
    echo "此脚本必须以 root 用户身份运行" 1>&2
